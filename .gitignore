@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+*.egg-info/
+.env
+outputs/reports/*
+outputs/heatmaps/*
+outputs/evaluation/*
+!outputs/reports/.gitkeep
+!outputs/heatmaps/.gitkeep
+!outputs/evaluation/.gitkeep
+models/*.pkl
+models/*.pt
+models/*.h5
+.DS_Store
+
+# datasets (keep folder structure, ignore contents)
+data/original/*
+data/spliced/*
+data/edited/*
+data/ai_generated/*
+data/external/*
+!data/**/.gitkeep
